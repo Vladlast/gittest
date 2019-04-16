@@ -1,0 +1,25 @@
+/* h1 {
+    color: red;
+} */
+
+ul{
+    list-style: none;
+}
+li:first-child a{
+color: green;
+}
+li:nth-child(even){
+    font-size: 16px;
+}
+li:nth-child(odd){
+    font-size: 10px;
+}
+li:nth-child(3n+1){
+    background-color: yellow;
+}
+a{
+    text-decoration: none;
+}
+li::before{
+    content: "-";
+}

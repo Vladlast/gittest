@@ -1,0 +1,34 @@
+.workspace{
+    box-sizing: border-box;
+    margin: 2px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+.column{
+    margin: 2px;
+}
+.circle{
+    display: inline-block;
+    border-radius: 40px;
+    background: black;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    border-style: hidden;
+}
+.workspace:hover{
+    border-color: blue;
+    background: yellow;
+    cursor: text;
+}
+.workspace:hover div{
+    background: blue;
+}

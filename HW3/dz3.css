@@ -1,0 +1,179 @@
+.box1 img{
+    float: left;
+    margin: 0 15px 15px 0;
+}
+.img-right img{
+    float: right;
+    margin: 0 0 15px 15px;
+}
+.text{
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 859px;
+    text-align: justify;
+}
+
+.card{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 700px;
+    height: 700px;
+    background-color:  #0d5825;
+}
+.text1{
+    color: white;
+    font: 25px sans-serif;
+    padding-top: 2em;
+    text-align: center;
+}
+.card_all img{
+    position: relative;
+    width: 150px; 
+}
+.card1{
+    left:175px;
+    top:100px;
+    z-index: 1;
+    transform: rotate(-25deg);
+}
+.card2{
+    left:100px;
+    top:100px;
+    z-index: 2;
+    transform: rotate(-10deg);
+}
+.card3{
+    right: -10px;
+    top:110px;
+    z-index: 3;
+}
+.card_all:hover {
+top: 75px;
+transition: 1s;
+cursor: pointer;
+}
+
+.boxp{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 600px;
+    height: 600px;
+    background-color:  yellow;
+}
+
+.box01{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    
+    background-color: gray;
+    z-index: 1;
+    left:100px;
+    top:60px;
+    border: 3px solid black;
+}
+.box02{
+    position: relative;
+    width: 100px;
+    height: 100px;
+   
+    background-color: gray;
+    z-index: 2;
+    left: 150px;
+    top:25px;
+    border: 3px solid black;
+}
+.box03{
+    position: relative;
+    width: 100px;
+    height: 100px;
+   
+    background-color: gray;
+    z-index: 3;
+    left:200px;
+    top:-25px;
+    border: 3px solid black;
+}
+.box04{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    
+    background-color: gray;
+    z-index: 4;
+    left: 250px;
+    top:  -75px;
+    border: 3px solid black;
+   
+}
+.p1 {
+    position:relative;   
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 30 px;
+    height: 30px;
+    
+    
+
+}
+.tex10{
+    
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin:100px auto;
+    display: none ;
+    background-color: gray;
+    border: 3px solid black;
+   
+}
+.box04:hover .tex10{
+    display:block;
+    position:absolute;
+    top:-103px;
+    left: -3px;
+   
+    width:200px;
+    
+}
+.box03:hover {
+    z-index: 10;
+}
+.box02:hover {
+    z-index: 10;
+}
+.box01:hover {
+    z-index: 10;
+}
+.box03:hover .tex10{
+    display:block;
+    position: absolute ;
+    top:-103px;
+    left: -3px;
+    
+    width:200px;
+}
+
+
+.box3:hover  ~ div {
+    opacity: 0;
+}
+
+.box02:hover .tex10{
+    display:block;
+    position: absolute ;
+    top:-103px;
+    left: -3px;
+    
+    width:200px;
+}
+.box01:hover .tex10{
+    display:block;
+    position: absolute ;
+    top:-103px;
+    left: -3px;
+    
+    width:200px;
+}
